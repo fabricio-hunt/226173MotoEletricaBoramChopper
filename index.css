@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap);
+
+body{
+
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+}
+
+
+.menu{
+    background-color: black;
+    height: 50px;
+}
+
+.bk-video video{
+
+    height: 100%;
+    width: 100%;
+}
+
+.cards-radius{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;  
+    background: url("https://img.freepik.com/free-photo/black-texture_1205-327.jpg") ;
+}
+
+.card{
+
+  
+    margin: 55px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    border: none;
+
+}
+
+.imagem-banner{
+
+    display: flex;
+    justify-content: center;
+    width: auto;
+    background-size: cover;
+}
+
+
+
+@media (max-width: 1174px)
+{
+  .cards-radius
+   {
+    display: flex;
+    flex-wrap: wrap;
+    background: #DCDCDC;
+   }
+
+   .card{
+
+    margin: 10px;
+   }
+   }
+
+
+
+   
